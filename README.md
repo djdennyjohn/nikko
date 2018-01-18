@@ -11,7 +11,8 @@
 
 ### Build
 
-It is a complete project with a build system focused on AngularJS apps and tightly integrated with other tools commonly used in the AngularJS community:
+
+This is a demo project with a build system focused on AngularJS apps and tightly integrated with other tools commonly used in the AngularJS community:
 * powered by [Gulp.js](https://gulpjs.com/)
 * build supporting JS, CSS minification
 * [Twitter's bootstrap](http://getbootstrap.com/) 
