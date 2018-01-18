@@ -49,3 +49,10 @@ The app is made up of a number of javascript, css and html files that need to be
     ```
     cd nikko
     grunt build
+    
+### Running
+
+    ```
+    cd dist
+    npm start
+    ```
