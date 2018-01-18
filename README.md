@@ -38,3 +38,13 @@ git clone https://github.com/djdennyjohn/nikko.git
 cd nikko
 npm install
 npm start
+
+
+
+### Build the client app
+The app is made up of a number of javascript, css and html files that need to be merged into a final distribution for running.  We use the Gulp build tool to do this.
+* Build client application:
+
+    ```
+    cd nikko
+    grunt build
