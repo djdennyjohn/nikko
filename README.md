@@ -64,7 +64,7 @@ The app is made up of a number of javascript, css and html files that need to be
 
     ```
     cd nikko
-    grunt build
+    gulp
     
     ```
 This will create a dist folder with all the required files.
