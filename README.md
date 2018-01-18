@@ -24,7 +24,7 @@ You need to install Node.js and then the development tools. Node.js comes with a
 * Install Grunt-CLI
 
     ```
-    npm install -g grunt-cli karma
+    npm install -g grunt-cli
     ```
 
 (Note that you may need to uninstall grunt 0.3 globally before installing grunt-cli)
