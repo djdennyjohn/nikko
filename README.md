@@ -22,13 +22,11 @@ It is a complete project with a build system focused on AngularJS apps and tight
 
 You need to install Node.js and then the development tools. Node.js comes with a package manager called [npm](http://npmjs.org) for installing NodeJS applications and libraries.
 * [Install node.js](http://nodejs.org/download/) (requires node.js version >= 0.8.4)
-* Install Grunt-CLI
+* Install Gulp
 
     ```
-    npm install -g grunt-cli
+    npm install -g gulp
     ```
-
-(Note that you may need to uninstall grunt 0.3 globally before installing grunt-cli)
 
 ### Get the Code
 
