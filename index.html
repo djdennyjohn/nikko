@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="nikko">
+    <meta name="author" content="Denny John">
+    <title>Nikko</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <!-- build:css dist/css/style.min.css-->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- endbuild -->
+    </head>
+    <body ng-app="app">
+    <div class="container" ng-controller="MainCtrl as vm">
+    <!-- navbar -->
+    <header data-ng-include="'./views/partials/top-navbar.html'" ng-controller="SearchCtrl as vm"></header>
+    <!-- end navbar -->
+    <div id="main-view" ui-view></div>
+    <!-- script -->
+    <!-- vendor -->
+    <!-- build:js ./scripts/lib.min.js-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src='vendor/angular/angular.min.js'></script>
+    <script src="vendor/angular-filter/angular-filter.min.js"></script>
+    <script src="vendor/angular-click-outside/clickoutside.directive.js"></script>
+    <script src="vendor/angular-ui-router/angular-ui-router.min.js"></script>
+    <script src='vendor/infinite-scroll/ng-infinite-scroll.min.js'></script>
+    <!-- endbuild -->
+    <!-- vendor -->
+    <!-- app -->
+  <!--
+    <script src="dist/scripts/lib.min.js"></script>
+    <script src="dist/scripts/scripts.min.js"></script>
+-->
+
+
+
+    <!-- build:js ./scripts/scripts.min.js-->
+   
+    <script src="js/index.js"></script>
+    <script src="js/config.router.js"></script>
+    <script src="js/directive/background-image-directive.js"></script>
+    <script src="js/filter/cut-filter.js"></script>
+    <script src="js/factory/data-service.js"></script>
+    <script src="js/controller/main-ctrl.js"></script>
+    <script src="js/controller/search-ctrl.js"></script>
+
+    <!-- endbuild -->
+    
+    
+    
+    
+    
+    
+    <!-- app -->
+    
+
+    <!-- srcipt -->
+    </body>
+</html>

@@ -1,0 +1,194 @@
+body {
+	background: #ddd;
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+.container {
+  width: auto;
+  padding: 0px;
+}
+
+@media (min-width: 100px) and (max-width: 639px) {
+.image {
+	    height: 125px !important;
+}
+
+}
+/* mobile devices */
+
+@media (min-width: 100px) and (max-width: 992px) {
+.card h3{
+    font-size : 10px !important;
+}
+
+}
+
+/* end mobile devices */
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+
+#main-view {
+  margin-top: -20px;
+}
+
+.card_holder {
+  border-radius: inherit !important;
+  background: black;
+  padding-top: 90px;
+}
+.card {
+  display: inline-block;
+  position: relative;
+  transition: all .2s ease-in-out;
+
+}
+
+.card:hover {
+  /*box-shadow: 0 5px 22px 0 rgba(0,0,0,.25);*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+
+.image {
+  height: 200px;
+  opacity: 1;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.image:hover,
+.card:hover .image {
+  height: 200px;
+  opacity: 1;
+
+}
+
+.text {
+      padding: 10px 10px 10px 0px;
+      height: 45px;
+      color: white;
+      text-overflow: ellipsis;
+}
+
+.text p {
+  margin-bottom: 0px;
+}
+
+.text h3 {
+  margin: 0px;
+}
+
+
+
+.loading-more-indicator {
+    text-align: center;
+    color: white;
+  }
+
+
+/* navbar css */
+.navbar {
+  background-color: black;
+  margin-bottom: 0px;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: .9;
+}
+
+
+.navbar h3 {
+  color: white;
+}
+
+
+
+
+/* end navbar css */
+
+
+/* search bar css */
+form#search {
+  position: absolute;
+  top: 6px;
+  right: 0px;
+}
+/*-------------------------------------*/
+#search label,
+#search input[type=submit] {
+  display: none;
+}
+/*-------------------------------------*/
+#search input[type=text] {
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 30px;
+  width: 30px;
+  outline: none;
+  font-size: 1em;
+  text-indent: 30px;
+  transition: all .4s ease;
+  margin-top: 5px;
+}
+#search input[type=text]:focus {
+  background-color: white;
+  text-indent: 11px;
+  width: 150px;
+  
+
+}
+
+/* end search bar css */
+
+/* search result */
+ul {
+  list-style: none;
+  padding: 5px;
+  z-index: 1;
+  position: relative;
+  background: #eee;
+}
+.search-result li {
+  cursor: pointer;
+  padding: 10px;
+      margin-bottom: 3px;
+      background : white;
+      font-size: 10px;
+}
+
+.search-result li:hover {
+  box-shadow: -1px 3px 5px rgba(0,0,0,0.19), 0px 0px 3px rgba(0,0,0,0.23);
+}
+.more-results {
+text-align: center;
+cursor: pointer;
+}
+/* end search result */
+
+
+
+
+.arrow-image-div {
+  display: inline;
+}
+
+.romantic-comedy {
+  display: inline-block;
+}
+.romantic-comedy h3{
+  font-size : 18px;
+}
+.arrow-image {
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
