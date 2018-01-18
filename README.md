@@ -51,7 +51,7 @@ npm install
 
 ### Run the Application
 
-The project with a simple development web server. The simplest way to start this server is:
+The project is built with a simple development web server. The simplest way to start this server is:
 
 ```
 npm start
