@@ -1,0 +1,46 @@
+<nav class="navbar jumbotron navbar-fixed-top">
+    <div class="container-fluid col-xs-8 col-sm-8 col-md-8 col-lg-8" style="padding-left: 10px;">
+          <div class="navbar-header">
+            <div class="arrow-image-div">
+            <img class="arrow-image" src="./images/back-arrow.png">
+          </div>
+          <div class="romantic-comedy">
+            <h3>Romantic Comedy</h3>
+            </div>
+            </div>
+          </div>
+      <div  id="searchBoxClickOutside" class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
+          <form action="#" method="post" id="search" >
+                <div click-outside="vm.closeThis()">
+                     <label for="name">Text Input:</label>
+                     <input type="text" name="searchInput" id="searchInput"  tabindex="1" placeholder="Search Movies" ng-change="vm.searchMovies()" ng-model="vm.searchText" autocomplete="off" />
+                     <input type="submit" value="Submit"  />
+                </div>
+  
+                <div id="searchResultContainer" class="searchResultContainer"  >
+                     <ul ng-if="vm.searchResult.length && vm.searchText" class="search-result" id="search-result" >
+                         <div class="list-inner-search">
+                              <li style="background: white;" ng-repeat="results in vm.searchResult | unique: 'name'"" ng-click="vm.searchWithKeyword()">
+                                  {{results.name | cut:false:24:'...'}}
+                              </li>
+                             
+                          </div>
+                      </ul>
+                      <ul ng-if="!vm.searchResult.length && vm.searchText.length" class="search-result" id="search-result">
+                          <div class="list-inner-search">
+                               <li style="text-align: center;cursor: auto;" ng-click="vm.closeThis()">No results found</li>
+                          </div>
+                      </ul>
+                </div>
+          </form>  
+        </div>
+    </div>
+</nav>
+
+<style type="text/css">
+  #search input[type=text] {
+  background: url(./images/search-icon.png) no-repeat scroll 5px 7px;
+
+}
+#
+</style>
