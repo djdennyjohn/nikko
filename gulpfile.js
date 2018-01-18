@@ -7,7 +7,6 @@ var useref = require('gulp-useref');
 var cssmin = require('gulp-cssmin');
 var gulpCopy = require('gulp-copy');
 var clean = require('gulp-clean');
-var cleanDest = require('gulp-clean-dest');
 var server = require('gulp-server-livereload');
 
 
