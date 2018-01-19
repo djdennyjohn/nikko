@@ -31,6 +31,7 @@ To get you started you need to install Node.js and then the development tools. N
     ```
     npm install -g gulp
     ```
+Make sure you have gulp installed globally
 
 ### Get the Code
 
