@@ -1,5 +1,5 @@
 'use strict';
-app.directive('backgroundImageDirective', function () {
+app.directive('backgroundImageDirective',[ function () {
     return function (scope, element, attrs) {
       if(attrs.backgroundImageDirective == 'posterthatismissing.jpg'){
         element.attr({
@@ -12,4 +12,4 @@ app.directive('backgroundImageDirective', function () {
         });
       }
     };
-});
+}]);

@@ -27,7 +27,7 @@ body {
 
 .jumbotron {
   margin-bottom: 0px;
-  border-radius: 6px;
+  border-radius: 0px !important;
 }
 
 

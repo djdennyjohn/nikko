@@ -16,7 +16,7 @@ var jsFiles = 'js/**/*.js',
     jsDest = 'dist/scripts',
     imgDest = 'dist/images',
     cssDest = 'dist/css',
-    copyFilesFrom = ['./API/**/*','./images/**/*','./Slices/**/*','./views/**/*'],
+    copyFilesFrom = ['./API/**/*','./images/**/*','./Slices/**/*','./views/**/*','./package.json'],
     copyFilesDest = ('dist');
 
     
