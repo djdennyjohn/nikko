@@ -72,7 +72,6 @@ This will create a dist folder with all the required files.
     ```
     cd dist
     npm start
-    gulp
     ```
     
     
