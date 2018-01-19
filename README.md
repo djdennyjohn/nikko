@@ -38,7 +38,6 @@ Either clone this repository or fork it on GitHub and clone your fork:
 
 ```
 git clone https://github.com/djdennyjohn/nikko.git
-
 ```
 
 ### Install Dependencies
@@ -46,7 +45,6 @@ git clone https://github.com/djdennyjohn/nikko.git
 ```
 cd nikko
 npm install
-
 ```
 
 ### Run the Application
@@ -64,8 +62,8 @@ The app is made up of a number of javascript, css and html files that need to be
 
     ```
     cd nikko
+    gulp clean
     gulp
-    
     ```
 This will create a dist folder with all the required files.
     
@@ -74,5 +72,4 @@ This will create a dist folder with all the required files.
      ```
     cd dist
     npm start
-    
     ```
