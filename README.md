@@ -68,9 +68,8 @@ This will create a dist folder with all the required files.
     
 ### Running
 
-
     ```
     cd dist
     npm start
     gulp
-     ```
+    ```
