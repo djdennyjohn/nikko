@@ -53,7 +53,6 @@ The project is built with a simple development web server. The simplest way to s
 
 ```
 npm start
-
 ```
 
 ### Build the App
@@ -69,7 +68,9 @@ This will create a dist folder with all the required files.
     
 ### Running
 
-     ```
+
+    ```
     cd dist
     npm start
-    ```
+    gulp
+     ```
