@@ -1,6 +1,8 @@
 body {
-	background: black !important;
+	background: black;
   font-family: 'Titillium Web', sans-serif !important;
+  max-width: 1170px;
+  margin: auto;
 }
 
 .container {
@@ -27,7 +29,6 @@ body {
 
 .jumbotron {
   margin-bottom: 0px;
-  border-radius: 0px !important;
 }
 
 
@@ -39,12 +40,23 @@ body {
   border-radius: inherit !important;
   background: black;
   padding-top: 90px;
+  display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+        text-align: center;
 }
 .card {
   display: inline-block;
   position: relative;
   transition: all .2s ease-in-out;
 
+}
+
+.shots {
+  margin-bottom: 10px;
 }
 
 .card:hover {
@@ -98,16 +110,12 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   opacity: .9;
+  max-width: 1170px;
+    margin: auto;
 }
-
-
 .navbar h3 {
   color: white;
 }
-
-
-
-
 /* end navbar css */
 
 
@@ -156,9 +164,9 @@ ul {
 .search-result li {
   cursor: pointer;
   padding: 10px;
-      margin-bottom: 3px;
-      background : white;
-      font-size: 10px;
+  margin-bottom: 3px;
+  background : white;
+  font-size: 10px;
 }
 
 .search-result li:hover {
