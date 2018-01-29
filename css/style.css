@@ -16,6 +16,33 @@ body {
 }
 
 }
+
+@media (min-width: 680px) and (max-width: 794px) {
+.missing-poster {
+     width: 94% !important;
+}
+
+}
+
+@media (min-width: 795px) and (max-width: 884px) {
+.missing-poster {
+     width: 83% !important;
+}
+
+}
+
+@media (min-width: 885px) and (max-width: 1126px) {
+.missing-poster {
+     width: 80% !important;
+}
+}
+
+@media (min-width: 1127px) and (max-width: 1400px) {
+.missing-poster {
+     width: 60% !important;
+}
+
+}
 /* mobile devices */
 
 @media (min-width: 100px) and (max-width: 992px) {
@@ -71,6 +98,8 @@ body {
   overflow: hidden;
   transition: all .2s ease-in-out;
 }
+
+
 
 .image:hover,
 .card:hover .image {
