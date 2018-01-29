@@ -1,5 +1,5 @@
 # Nikko 
-### [Live Preview](hhttps://nikko-qpthpdhwwy.now.sh/#/home)
+### [Live Preview](https://nikko-qpthpdhwwy.now.sh/#/home)
 
 
 ### Stack
