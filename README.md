@@ -11,6 +11,15 @@
 * App routing on UI Router
 * Infinite Scrolling on ng-infinite scroll
 
+### Release Notes
+
+* Built with separation of concern
+* Separate controller for search functionality
+* Angularjs filter to remove duplicate results from search
+* Angularjs directive for loading images into the view
+* Angularjs service to load data using AJAX
+* Angularjs cut filter to cut out the extra length in movie titles
+
 
 ### Build
 
