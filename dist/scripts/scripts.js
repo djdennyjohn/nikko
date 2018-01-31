@@ -26,11 +26,12 @@ app.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlR
 }]);
 
 'use strict';
-app.directive('backgroundImageDirective', function () {
+app.directive('backgroundImageDirective',[ function () {
     return function (scope, element, attrs) {
-      if(attrs.backgroundImageDirective == 'posterthatismissing.jpg'){
+      if(attrs.backgroundImageDirective === 'posterthatismissing.jpg'){
         element.attr({
             'src': './Slices/placeholder_for_missing_posters.png',
+            'class' : 'missing-poster',
         });
       }
        else {
@@ -39,7 +40,7 @@ app.directive('backgroundImageDirective', function () {
         });
       }
     };
-});
+}]);
 'use strict';
 app.filter('cut',[ function () {
         return function (value, wordwise, max, tail) {
