@@ -1,5 +1,5 @@
 # Nikko 
-### [Live Preview](https://nikko-tocknvbnsd.now.sh/#/home)
+### [Live Preview](https://nikko-qrzfsurxfy.now.sh/#/home)
 
 
 ### Stack
@@ -9,20 +9,11 @@
 * Build on [Gulp](https://gulpjs.com/)
 * Jquery
 * App routing on UI Router
-* Infinite Scrolling on ng-infinite-scroll
-
-
-### Release Notes
-
-* Build with separation of concern
-* Implemented search method in a separate controller
-* Filtering out duplicate results in search with angular filter
-* Angularjs directives for loading images into the view
-* Angularjs services for loading data via AJAX
-* Angularjs filter for cutting out extra length of the movie name
+* Infinite Scrolling on ng-infinite scroll
 
 
 ### Build
+
 
 This is a demo project with a build system focused on AngularJS apps and tightly integrated with other tools commonly used in the AngularJS community:
 * powered by [Gulp.js](https://gulpjs.com/)
