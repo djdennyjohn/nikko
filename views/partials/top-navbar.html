@@ -1,5 +1,6 @@
 <nav class="navbar jumbotron navbar-fixed-top">
-    <div class="container-fluid col-xs-8 col-sm-8 col-md-8 col-lg-8" style="padding-left: 10px;">
+  <div class="row"> 
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
           <div class="navbar-header">
             <div class="arrow-image-div">
             <img class="arrow-image" src="./images/back-arrow.png">
@@ -10,11 +11,14 @@
             </div>
           </div>
       <div  id="searchBoxClickOutside" class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
+     
+        <div class="con"></div>
           <form action="#" method="post" id="search" >
-                <div click-outside="vm.closeThis()">
-                     <label for="name">Text Input:</label>
-                     <input type="text" name="searchInput" id="searchInput"  tabindex="1" placeholder="Search Movies" ng-change="vm.searchMovies()" ng-model="vm.searchText" autocomplete="off" />
-                     <input type="submit" value="Submit"  />
+
+                <div click-outside="vm.closeThis()" >
+                     <label class="control-label" for="name">Text Input:</label>
+                     <input class="form-control" type="text" name="searchInput" id="searchInput"  tabindex="1" placeholder="Search Movies" ng-change="vm.searchMovies()" ng-model="vm.searchText" autocomplete="off" />
+                     <input  type="submit" value="Submit"  />
                 </div>
   
                 <div id="searchResultContainer" class="searchResultContainer"  >
@@ -32,8 +36,10 @@
                           </div>
                       </ul>
                 </div>
-          </form>  
+          </form> 
+        
         </div>
+    </div>
     </div>
 </nav>
 

@@ -1,8 +1,9 @@
 
     <div class="jumbotron card_holder">
+
         <div class="row vertical-center-row" >
       <div infinite-scroll="vm.loadMoreShots()" infinite-scroll-distance="1">
-      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 shots" ng-repeat="shot in vm.shots track by $index" >
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 shots" ng-repeat="shot in vm.shots track by $index" style="padding: 5px;">
         <div class="card">
          <div>
           <div class="image">
@@ -15,12 +16,13 @@
        </div>
        </div>
     </div>
-    <div style='clear: both;'></div>
-  </div>
-  </div>
     <div class="loading-more-indicator" ng-show="vm.loadingMore">
         <p>Loading ...</p>
      </div>
+    <div style='clear: both;'></div>
+  </div>
+  </div>
+    
   
      
   

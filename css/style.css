@@ -1,7 +1,7 @@
 body {
 	background: black;
   font-family: 'Titillium Web', sans-serif !important;
-  max-width: 1170px;
+  max-width: 730px;
   margin: auto;
 }
 
@@ -17,32 +17,7 @@ body {
 
 }
 
-@media (min-width: 680px) and (max-width: 794px) {
-.missing-poster {
-     width: 94% !important;
-}
 
-}
-
-@media (min-width: 795px) and (max-width: 884px) {
-.missing-poster {
-     width: 83% !important;
-}
-
-}
-
-@media (min-width: 885px) and (max-width: 1126px) {
-.missing-poster {
-     width: 80% !important;
-}
-}
-
-@media (min-width: 1127px) and (max-width: 1400px) {
-.missing-poster {
-     width: 60% !important;
-}
-
-}
 /* mobile devices */
 
 @media (min-width: 100px) and (max-width: 992px) {
@@ -82,9 +57,7 @@ body {
 
 }
 
-.shots {
-  margin-bottom: 10px;
-}
+
 
 .card:hover {
   /*box-shadow: 0 5px 22px 0 rgba(0,0,0,.25);*/
@@ -139,7 +112,7 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   opacity: .9;
-  max-width: 1170px;
+  max-width: 716px;
     margin: auto;
 }
 .navbar h3 {
@@ -152,7 +125,7 @@ body {
 form#search {
   position: absolute;
   top: 6px;
-  right: 0px;
+  right: 18px;
 }
 /*-------------------------------------*/
 #search label,
