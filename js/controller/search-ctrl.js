@@ -1,5 +1,5 @@
 'use strict';
-app.controller('SearchCtrl',['$scope','dataService',function($scope,dataService){
+app.controller('SearchCtrl',['dataService',function(dataService){
 
 	var vm = this;
   vm.searchIndex = [];

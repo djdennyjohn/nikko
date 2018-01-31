@@ -1,8 +1,6 @@
 'use strict';
-app.controller('MainCtrl',['$scope','dataService' ,function($scope,dataService) {
+app.controller('MainCtrl',['dataService' ,function(dataService) {
   var vm = this;
-  $scope.card = {};
-  $scope.card.title = 'test';
   vm.page = 1;
   vm.shots = [];
   vm.loadingMore = false;

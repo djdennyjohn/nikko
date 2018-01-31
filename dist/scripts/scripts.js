@@ -72,10 +72,8 @@ app.factory('dataService',['$http', function ($http) {
 	return dataService;
 }]);
 'use strict';
-app.controller('MainCtrl',['$scope','dataService' ,function($scope,dataService) {
+app.controller('MainCtrl',['dataService' ,function(dataService) {
   var vm = this;
-  $scope.card = {};
-  $scope.card.title = 'test';
   vm.page = 1;
   vm.shots = [];
   vm.loadingMore = false;
@@ -109,7 +107,7 @@ app.controller('MainCtrl',['$scope','dataService' ,function($scope,dataService) 
   
 }]);
 'use strict';
-app.controller('SearchCtrl',['$scope','dataService',function($scope,dataService){
+app.controller('SearchCtrl',['dataService',function(dataService){
 
 	var vm = this;
   vm.searchIndex = [];
