@@ -16,7 +16,7 @@
 
 * Build with separation of concern
 * Implemented search method in a separate controller
-* Filering out duplicate results in search with angular filter
+* Filtering out duplicate results in search with angular filter
 * Angularjs directives for loading images into the view
 * Angularjs services for loading data via AJAX
 * Angularjs filter for cutting out extra length of the movie name
